@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Invisible "dial" that only fixes the AnalogClock's size. It is large on purpose:
+     AnalogClock only scales down, so the hands always shrink to fit the widget. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,0h400v400h-400z" />
+</vector>

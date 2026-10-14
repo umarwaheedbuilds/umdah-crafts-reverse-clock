@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Umdah Crafts</string>
+    <string name="widget_name">Reverse Clock</string>
+    <string name="widget_minimal_name">Reverse Clock Minimal</string>
+    <string name="widget_desc">Reverse analog clock with a seconds hand</string>
+    <string name="widget_minimal_desc">Reverse analog clock, hours and minutes only</string>
+    <string name="hint">Long-press your home screen → Widgets → Umdah Crafts</string>
+    <string name="tagline">A reverse clock</string>
+    <string name="pick_photo">Photo</string>
+    <string name="remove_photo">Remove</string>
+    <string name="add_widget">Add widget</string>
+    <string name="photo_failed">Couldn\'t open that photo</string>
+
+    <color name="icon_bg">#16181D</color>
+
+    <style name="Theme.AntiClock" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0E0F12</item>
+        <item name="android:statusBarColor">#0E0F12</item>
+        <item name="android:navigationBarColor">#0E0F12</item>
+    </style>
+
+    <style name="PillButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:background">@drawable/pill</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ECE6DA</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

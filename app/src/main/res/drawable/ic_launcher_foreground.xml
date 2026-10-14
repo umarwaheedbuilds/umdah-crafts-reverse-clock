@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground: 108dp canvas, safe zone is the central 66dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- counter-clockwise arc with arrowhead -->
+    <path
+        android:pathData="M54,26 A28,28 0 1 0 79.2,41.8"
+        android:strokeWidth="2.5"
+        android:strokeColor="#55ECE6DA"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#55ECE6DA"
+        android:pathData="M54,21 L47,26 L54,31 Z" />
+    <!-- hands at reversed "10:10" -->
+    <path
+        android:pathData="M54,54 L66,46"
+        android:strokeWidth="4"
+        android:strokeColor="#ECE6DA"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L36,42"
+        android:strokeWidth="3"
+        android:strokeColor="#ECE6DA"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,54 L54,74"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF7A59"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FF7A59"
+        android:pathData="M50.5,54 A3.5,3.5 0 1 0 57.5,54 A3.5,3.5 0 1 0 50.5,54 Z" />
+</vector>

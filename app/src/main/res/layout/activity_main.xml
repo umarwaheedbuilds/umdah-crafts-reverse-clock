@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0F12"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <com.umdah.anticlock.ClockView
+        android:id="@+id/clock"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pick_photo"
+            style="@style/PillButton"
+            android:text="@string/pick_photo" />
+
+        <TextView
+            android:id="@+id/remove_photo"
+            style="@style/PillButton"
+            android:layout_marginStart="10dp"
+            android:text="@string/remove_photo" />
+
+        <TextView
+            android:id="@+id/add_widget"
+            style="@style/PillButton"
+            android:layout_marginStart="10dp"
+            android:text="@string/add_widget" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:text="@string/tagline"
+        android:textColor="#66ECE6DA"
+        android:textSize="13sp" />
+</LinearLayout>
